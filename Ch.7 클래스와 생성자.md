@@ -23,4 +23,24 @@
 
 	**멤버 함수**
 		객체의 행위를 구현하는 함수.
-	![[CPP-Study/실제 세계 vs 객체 지향 프로그래밍.canvas]]
+
+```mermaid
+%%{init: {'flowchart': {'curve': 'basis', 'nodeSpacing': 55, 'rankSpacing': 130}}}%%
+graph LR
+  subgraph real["실제 세계"]
+    r1["타입"]
+    r2["인스턴스"]
+    r3["속성"]
+    r4["행위"]
+  end
+  subgraph oop["객체 지향 프로그래밍"]
+    o1["타입, 클래스"]
+    o2["인스턴스, 객체"]
+    o3["데이터 멤버"]
+    o4["행위, 멤버 함수"]
+  end
+  r1 <--> o1
+  r2 <--> o2
+  r3 <--> o3
+  r4 <--> o4
+```
