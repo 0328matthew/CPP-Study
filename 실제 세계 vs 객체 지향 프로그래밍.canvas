@@ -1,147 +1,147 @@
 {
-	"nodes": [
+	"nodes":[
 		{
-			"id": "grp-real",
-			"type": "group",
-			"styleAttributes": {},
-			"x": 0,
-			"y": 0,
-			"width": 340,
-			"height": 530,
-			"label": "실제 세계"
+			"id":"grp-real",
+			"type":"group",
+			"styleAttributes":{},
+			"x":0,
+			"y":0,
+			"width":340,
+			"height":530,
+			"label":"실제 세계"
 		},
 		{
-			"id": "grp-oop",
-			"type": "group",
-			"styleAttributes": {},
-			"x": 580,
-			"y": 0,
-			"width": 340,
-			"height": 530,
-			"label": "객체 지향 프로그래밍"
+			"id":"grp-oop",
+			"type":"group",
+			"styleAttributes":{},
+			"x":580,
+			"y":0,
+			"width":340,
+			"height":530,
+			"label":"객체 지향 프로그래밍"
 		},
 		{
-			"id": "r1",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 40,
-			"y": 40,
-			"width": 260,
-			"height": 90,
-			"text": "## 타입"
+			"id":"r1",
+			"type":"text",
+			"styleAttributes":{},
+			"x":40,
+			"y":40,
+			"width":260,
+			"height":90,
+			"text":"## 타입"
 		},
 		{
-			"id": "o1",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 620,
-			"y": 40,
-			"width": 260,
-			"height": 90,
-			"text": "## 타입, 클래스"
+			"id":"o1",
+			"type":"text",
+			"styleAttributes":{},
+			"x":620,
+			"y":40,
+			"width":260,
+			"height":90,
+			"text":"## 타입, 클래스"
 		},
 		{
-			"id": "r2",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 40,
-			"y": 160,
-			"width": 260,
-			"height": 90,
-			"text": "## 인스턴스"
+			"id":"r2",
+			"type":"text",
+			"styleAttributes":{},
+			"x":40,
+			"y":160,
+			"width":260,
+			"height":90,
+			"text":"## 인스턴스"
 		},
 		{
-			"id": "o2",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 620,
-			"y": 160,
-			"width": 260,
-			"height": 90,
-			"text": "## 인스턴스, 객체"
+			"id":"o2",
+			"type":"text",
+			"styleAttributes":{},
+			"x":620,
+			"y":160,
+			"width":260,
+			"height":90,
+			"text":"## 인스턴스, 객체"
 		},
 		{
-			"id": "r3",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 40,
-			"y": 280,
-			"width": 260,
-			"height": 90,
-			"text": "## 속성"
+			"id":"r3",
+			"type":"text",
+			"styleAttributes":{},
+			"x":40,
+			"y":280,
+			"width":260,
+			"height":90,
+			"text":"## 속성"
 		},
 		{
-			"id": "o3",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 620,
-			"y": 280,
-			"width": 260,
-			"height": 90,
-			"text": "## 데이터 멤버"
+			"id":"o3",
+			"type":"text",
+			"styleAttributes":{},
+			"x":620,
+			"y":280,
+			"width":260,
+			"height":90,
+			"text":"## 데이터 멤버"
 		},
 		{
-			"id": "r4",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 40,
-			"y": 400,
-			"width": 260,
-			"height": 90,
-			"text": "## 행위"
+			"id":"r4",
+			"type":"text",
+			"styleAttributes":{},
+			"x":40,
+			"y":400,
+			"width":260,
+			"height":90,
+			"text":"## 행위"
 		},
 		{
-			"id": "o4",
-			"type": "text",
-			"styleAttributes": {},
-			"x": 620,
-			"y": 400,
-			"width": 260,
-			"height": 90,
-			"text": "## 행위, 멤버 함수"
+			"id":"o4",
+			"type":"text",
+			"styleAttributes":{},
+			"x":620,
+			"y":400,
+			"width":260,
+			"height":90,
+			"text":"## 행위, 멤버 함수"
 		}
 	],
-	"edges": [
+	"edges":[
 		{
-			"id": "e1",
-			"styleAttributes": {},
-			"fromNode": "r1",
-			"fromSide": "right",
-			"fromEnd": "arrow",
-			"toNode": "o1",
-			"toSide": "left",
-			"toEnd": "arrow"
+			"id":"e1",
+			"styleAttributes":{},
+			"fromNode":"r1",
+			"fromSide":"right",
+			"fromEnd":"arrow",
+			"toNode":"o1",
+			"toSide":"left",
+			"toEnd":"arrow"
 		},
 		{
-			"id": "e2",
-			"styleAttributes": {},
-			"fromNode": "r2",
-			"fromSide": "right",
-			"fromEnd": "arrow",
-			"toNode": "o2",
-			"toSide": "left",
-			"toEnd": "arrow"
+			"id":"e2",
+			"styleAttributes":{},
+			"fromNode":"r2",
+			"fromSide":"right",
+			"fromEnd":"arrow",
+			"toNode":"o2",
+			"toSide":"left",
+			"toEnd":"arrow"
 		},
 		{
-			"id": "e3",
-			"styleAttributes": {},
-			"fromNode": "r3",
-			"fromSide": "right",
-			"fromEnd": "arrow",
-			"toNode": "o3",
-			"toSide": "left",
-			"toEnd": "arrow"
+			"id":"e3",
+			"styleAttributes":{},
+			"fromNode":"r3",
+			"fromSide":"right",
+			"fromEnd":"arrow",
+			"toNode":"o3",
+			"toSide":"left",
+			"toEnd":"arrow"
 		},
 		{
-			"id": "e4",
-			"styleAttributes": {},
-			"fromNode": "r4",
-			"fromSide": "right",
-			"fromEnd": "arrow",
-			"toNode": "o4",
-			"toSide": "left",
-			"toEnd": "arrow"
+			"id":"e4",
+			"styleAttributes":{},
+			"fromNode":"r4",
+			"fromSide":"right",
+			"fromEnd":"arrow",
+			"toNode":"o4",
+			"toSide":"left",
+			"toEnd":"arrow"
 		}
 	],
-	"metadata": {}
+	"metadata":{}
 }
